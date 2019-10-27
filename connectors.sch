@@ -174,7 +174,7 @@ Wire Wire Line
 Wire Wire Line
 	8375 2150 8225 2150
 $Comp
-L Device:C C23
+L kapukiTRX-hw-trx-rescue:C-Device C23
 U 1 1 5C78CA1B
 P 6550 2250
 F 0 "C23" H 6665 2296 50  0000 L CNN
@@ -185,7 +185,7 @@ F 3 "~" H 6550 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C25
+L kapukiTRX-hw-trx-rescue:C-Device C25
 U 1 1 5C78CA91
 P 8375 2300
 F 0 "C25" H 8490 2346 50  0000 L CNN
@@ -234,7 +234,7 @@ Connection ~ 3600 4650
 Wire Wire Line
 	2925 3400 3200 3400
 $Comp
-L Device:CP C22
+L kapukiTRX-hw-trx-rescue:CP-Device C22
 U 1 1 5C79ED78
 P 6100 2250
 F 0 "C22" H 6218 2296 50  0000 L CNN
@@ -249,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2500 6550 2500
 $Comp
-L LP38693:LP38693 U4
+L kapukiTRX-hw-trx-rescue:LP38693-LP38693 U4
 U 1 1 5C7B161D
 P 7825 2150
 F 0 "U4" H 7825 2515 50  0000 C CNN
@@ -260,7 +260,7 @@ F 3 "http://www.ti.com/lit/ds/snvs321o/snvs321o.pdf" H 7825 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L kapukiTRX-hw-trx-rescue:C-Device C13
 U 1 1 5C7D119D
 P 3950 2900
 F 0 "C13" V 3698 2900 50  0000 C CNN
@@ -291,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	4175 2900 4175 2950
 $Comp
-L Device:C C12
+L kapukiTRX-hw-trx-rescue:C-Device C12
 U 1 1 5C7D7B7F
 P 3300 2900
 F 0 "C12" V 3048 2900 50  0000 C CNN
@@ -350,7 +350,7 @@ $EndComp
 Wire Wire Line
 	8370 3855 8370 3705
 $Comp
-L Device:C C?
+L kapukiTRX-hw-trx-rescue:C-Device C?
 U 1 1 5CCDDFB0
 P 8595 3705
 AR Path="/5CCDDFB0" Ref="C?"  Part="1" 
@@ -385,7 +385,7 @@ Connection ~ 8370 3705
 Wire Wire Line
 	8370 3705 8370 3555
 $Comp
-L Device:R R?
+L kapukiTRX-hw-trx-rescue:R-Device R?
 U 1 1 5CCDDFD0
 P 9320 4655
 AR Path="/5CCDDFD0" Ref="R?"  Part="1" 
@@ -409,7 +409,7 @@ Wire Wire Line
 	8870 4355 9320 4355
 Connection ~ 9320 4355
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L kapukiTRX-hw-trx-rescue:Conn_01x03-Connector_Generic J?
 U 1 1 5CCDDFDF
 P 10245 4355
 AR Path="/5CCDDFDF" Ref="J?"  Part="1" 
@@ -443,7 +443,7 @@ Wire Wire Line
 Wire Wire Line
 	9945 4455 10045 4455
 $Comp
-L Device:C C19
+L kapukiTRX-hw-trx-rescue:C-Device C19
 U 1 1 5CCE1675
 P 4700 2950
 F 0 "C19" H 4815 2996 50  0000 L CNN
@@ -454,7 +454,7 @@ F 3 "~" H 4700 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C18
+L kapukiTRX-hw-trx-rescue:C-Device C18
 U 1 1 5CCE1727
 P 4700 2500
 F 0 "C18" H 4815 2546 50  0000 L CNN
@@ -468,7 +468,7 @@ Connection ~ 4700 2350
 Wire Wire Line
 	4700 2350 5250 2350
 $Comp
-L Device:C C14
+L kapukiTRX-hw-trx-rescue:C-Device C14
 U 1 1 5CCE1785
 P 4200 5700
 F 0 "C14" H 4315 5746 50  0000 L CNN
@@ -479,7 +479,7 @@ F 3 "~" H 4200 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L kapukiTRX-hw-trx-rescue:C-Device C15
 U 1 1 5CCE1C56
 P 4350 5250
 F 0 "C15" H 4465 5296 50  0000 L CNN
@@ -490,7 +490,7 @@ F 3 "~" H 4350 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L kapukiTRX-hw-trx-rescue:C-Device C16
 U 1 1 5CCE1CA6
 P 4500 4800
 F 0 "C16" H 4615 4846 50  0000 L CNN
@@ -501,7 +501,7 @@ F 3 "~" H 4500 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L kapukiTRX-hw-trx-rescue:C-Device C17
 U 1 1 5CCE1CFA
 P 4650 4350
 F 0 "C17" H 4765 4396 50  0000 L CNN
@@ -526,7 +526,7 @@ Wire Wire Line
 	4650 4150 4650 4200
 Connection ~ 4650 4150
 $Comp
-L Device:C C21
+L kapukiTRX-hw-trx-rescue:C-Device C21
 U 1 1 5CD045AA
 P 4775 3925
 F 0 "C21" H 4800 4025 50  0000 L CNN
@@ -537,7 +537,7 @@ F 3 "~" H 4775 3925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
+L kapukiTRX-hw-trx-rescue:C-Device C20
 U 1 1 5CD17DAF
 P 4700 3400
 F 0 "C20" H 4815 3446 50  0000 L CNN
@@ -598,7 +598,7 @@ Connection ~ 4700 3250
 Wire Wire Line
 	4700 3250 5250 3250
 $Comp
-L Device:R R8
+L kapukiTRX-hw-trx-rescue:R-Device R8
 U 1 1 5CD7AFCF
 P 7200 2250
 F 0 "R8" V 7100 2250 50  0000 C CNN
@@ -622,7 +622,7 @@ CANRX
 Text HLabel 7630 4055 0    50   Input ~ 0
 CANTX
 $Comp
-L Device:CP C27
+L kapukiTRX-hw-trx-rescue:CP-Device C27
 U 1 1 5CE22492
 P 8750 2300
 F 0 "C27" H 8868 2346 50  0000 L CNN
@@ -645,7 +645,7 @@ Connection ~ 8375 2500
 Text Label 5000 2050 2    50   ~ 0
 VCC
 $Comp
-L Connector_Generic:Conn_01x01 J19
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J19
 U 1 1 5CF3538C
 P 5450 6350
 F 0 "J19" H 5529 6392 50  0000 L CNN
@@ -671,7 +671,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 6350 5250 6350
 $Comp
-L dk_Logic-Translators-Level-Shifters:TXB0108PWR U3
+L kapukiTRX-hw-trx-rescue:TXB0108PWR-dk_Logic-Translators-Level-Shifters U3
 U 1 1 5CB75ACC
 P 3600 3700
 F 0 "U3" H 3350 3050 60  0000 C CNN
@@ -693,7 +693,7 @@ $EndComp
 Wire Wire Line
 	3900 3700 4775 3700
 $Comp
-L Device:R R7
+L kapukiTRX-hw-trx-rescue:R-Device R7
 U 1 1 5CBE1CAD
 P 3150 4400
 F 0 "R7" H 2950 4450 50  0000 L CNN
@@ -750,7 +750,7 @@ Connection ~ 8370 4690
 Wire Wire Line
 	8370 4690 8370 4655
 $Comp
-L Connector_Generic:Conn_01x01 J5
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J5
 U 1 1 5DD3888B
 P 5450 2800
 F 0 "J5" H 5400 2900 50  0000 L CNN
@@ -761,7 +761,7 @@ F 3 "~" H 5450 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J6
 U 1 1 5DD38C93
 P 5450 2900
 F 0 "J6" H 5400 2800 50  0000 L CNN
@@ -772,7 +772,7 @@ F 3 "~" H 5450 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J7
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J7
 U 1 1 5DD38FAD
 P 5450 3250
 F 0 "J7" H 5400 3350 50  0000 L CNN
@@ -783,7 +783,7 @@ F 3 "~" H 5450 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J8
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J8
 U 1 1 5DD39454
 P 5450 3350
 F 0 "J8" H 5400 3250 50  0000 L CNN
@@ -794,7 +794,7 @@ F 3 "~" H 5450 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J9
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J9
 U 1 1 5DD3999D
 P 5450 3700
 F 0 "J9" H 5400 3800 50  0000 L CNN
@@ -805,7 +805,7 @@ F 3 "~" H 5450 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J10
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J10
 U 1 1 5DD39E93
 P 5450 3800
 F 0 "J10" H 5400 3700 50  0000 L CNN
@@ -816,7 +816,7 @@ F 3 "~" H 5450 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J11
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J11
 U 1 1 5DD3A2CD
 P 5450 4150
 F 0 "J11" H 5400 4250 50  0000 L CNN
@@ -827,7 +827,7 @@ F 3 "~" H 5450 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J12
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J12
 U 1 1 5DD3A7A0
 P 5450 4250
 F 0 "J12" H 5400 4150 50  0000 L CNN
@@ -838,7 +838,7 @@ F 3 "~" H 5450 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J13
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J13
 U 1 1 5DD3AC57
 P 5450 4600
 F 0 "J13" H 5400 4700 50  0000 L CNN
@@ -849,7 +849,7 @@ F 3 "~" H 5450 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J14
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J14
 U 1 1 5DD3B03C
 P 5450 4700
 F 0 "J14" H 5400 4600 50  0000 L CNN
@@ -860,7 +860,7 @@ F 3 "~" H 5450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J15
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J15
 U 1 1 5DD3B325
 P 5450 5050
 F 0 "J15" H 5400 5150 50  0000 L CNN
@@ -871,7 +871,7 @@ F 3 "~" H 5450 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J16
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J16
 U 1 1 5DD3B787
 P 5450 5150
 F 0 "J16" H 5400 5050 50  0000 L CNN
@@ -882,7 +882,7 @@ F 3 "~" H 5450 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J17
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J17
 U 1 1 5DD3BAAC
 P 5450 5500
 F 0 "J17" H 5400 5600 50  0000 L CNN
@@ -893,7 +893,7 @@ F 3 "~" H 5450 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J18
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J18
 U 1 1 5DD3C08C
 P 5450 5600
 F 0 "J18" H 5400 5500 50  0000 L CNN
@@ -904,7 +904,7 @@ F 3 "~" H 5450 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_CAN_LIN:MCP2562-E-MF U5
+L kapukiTRX-hw-trx-rescue:MCP2562-E-MF-Interface_CAN_LIN U5
 U 1 1 5DC41DB4
 P 8370 4255
 F 0 "U5" H 8020 4605 50  0000 C CNN
@@ -923,7 +923,7 @@ CANEN
 Wire Wire Line
 	7625 4455 7870 4455
 $Comp
-L Device:C C?
+L kapukiTRX-hw-trx-rescue:C-Device C?
 U 1 1 5DC9B7C0
 P 7755 4725
 AR Path="/5DC9B7C0" Ref="C?"  Part="1" 
@@ -956,7 +956,7 @@ Connection ~ 7755 4355
 Wire Wire Line
 	7755 4355 7870 4355
 $Comp
-L Connector_Generic:Conn_01x01 J4
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J4
 U 1 1 5DD384FB
 P 5450 2450
 F 0 "J4" H 5400 2350 50  0000 L CNN
@@ -967,7 +967,7 @@ F 3 "~" H 5450 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J3
+L kapukiTRX-hw-trx-rescue:Conn_01x01-Connector_Generic J3
 U 1 1 5DD37C43
 P 5450 2350
 F 0 "J3" H 5400 2450 50  0000 L CNN

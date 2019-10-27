@@ -37,7 +37,7 @@ F 3 "" H 4075 5925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LP38693:LP38693 U6
+L kapukiTRX-hw-trx-rescue:LP38693-LP38693 U6
 U 1 1 5C7BA578
 P 2500 1925
 F 0 "U6" H 2500 2290 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "http://www.ti.com/lit/ds/snvs321o/snvs321o.pdf" H 2500 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
+L kapukiTRX-hw-trx-rescue:C-Device C29
 U 1 1 5C7BA5D5
 P 3125 1975
 F 0 "C29" H 3240 2021 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "~" H 3125 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C28
+L kapukiTRX-hw-trx-rescue:C-Device C28
 U 1 1 5C7BA627
 P 1675 1975
 F 0 "C28" H 1790 2021 50  0000 L CNN
@@ -206,7 +206,7 @@ Wire Wire Line
 	1425 2250 1675 2250
 Connection ~ 1675 2250
 $Comp
-L Device:C C31
+L kapukiTRX-hw-trx-rescue:C-Device C31
 U 1 1 5C7CD227
 P 4375 1825
 F 0 "C31" V 4123 1825 50  0000 C CNN
@@ -217,7 +217,7 @@ F 3 "~" H 4375 1825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C32
+L kapukiTRX-hw-trx-rescue:C-Device C32
 U 1 1 5C7CD2B2
 P 4375 4350
 F 0 "C32" V 4123 4350 50  0000 C CNN
@@ -262,7 +262,7 @@ Wire Wire Line
 Wire Wire Line
 	4075 4350 4075 4725
 $Comp
-L Device:CP C30
+L kapukiTRX-hw-trx-rescue:CP-Device C30
 U 1 1 5C8A056F
 P 3725 2025
 F 0 "C30" H 3843 2071 50  0000 L CNN
@@ -296,7 +296,7 @@ Wire Wire Line
 Wire Wire Line
 	3725 2225 3725 2175
 $Comp
-L SX1280:E28-2G4M20S A1
+L kapukiTRX-hw-trx-rescue:E28-2G4M20S-SX1280 A1
 U 1 1 5C8B677C
 P 4075 5275
 F 0 "A1" H 3675 5775 50  0000 C CNN
@@ -307,7 +307,7 @@ F 3 "http://www.ebyte.com/en/downpdf.aspx?id=286" H 5225 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SX1280:E28-2G4M20S A2
+L kapukiTRX-hw-trx-rescue:E28-2G4M20S-SX1280 A2
 U 1 1 5C8B6803
 P 4100 3000
 F 0 "A2" H 3700 3500 50  0000 C CNN
