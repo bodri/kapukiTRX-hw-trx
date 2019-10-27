@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C4
+L Device:C C4
 U 1 1 5C749996
 P 1675 3150
 F 0 "C4" V 1850 3150 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "~" H 1675 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C3
+L Device:C C3
 U 1 1 5C7499E6
 P 1675 2800
 F 0 "C3" V 1423 2800 50  0000 C CNN
@@ -63,7 +63,7 @@ Connection ~ 1400 3150
 Wire Wire Line
 	1400 3150 1400 2800
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C1
+L Device:C C1
 U 1 1 5C74B625
 P 1175 1100
 F 0 "C1" H 1290 1146 50  0000 L CNN
@@ -74,7 +74,7 @@ F 3 "~" H 1175 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C2
+L Device:C C2
 U 1 1 5C74B65F
 P 1625 1100
 F 0 "C2" H 1740 1146 50  0000 L CNN
@@ -85,7 +85,7 @@ F 3 "~" H 1625 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C6
+L Device:C C6
 U 1 1 5C74B691
 P 2100 1100
 F 0 "C6" H 2215 1146 50  0000 L CNN
@@ -98,7 +98,7 @@ $EndComp
 Text Label 2025 675  2    50   ~ 0
 VCCCPU
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C7
+L Device:C C7
 U 1 1 5C74E65D
 P 2640 1105
 F 0 "C7" H 2755 1151 50  0000 L CNN
@@ -109,7 +109,7 @@ F 3 "~" H 2640 1105 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C8
+L Device:C C8
 U 1 1 5C74F6DB
 P 4200 1290
 F 0 "C8" H 4315 1336 50  0000 L CNN
@@ -120,7 +120,7 @@ F 3 "~" H 4200 1290 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C9
+L Device:C C9
 U 1 1 5C74F723
 P 4600 1290
 F 0 "C9" H 4715 1336 50  0000 L CNN
@@ -131,7 +131,7 @@ F 3 "~" H 4600 1290 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:Ferrite_Bead-Device FB1
+L Device:Ferrite_Bead FB1
 U 1 1 5C74F867
 P 3825 925
 F 0 "FB1" H 3855 1095 50  0000 L CNN
@@ -239,7 +239,7 @@ RF1MOSI
 Text Label 2925 4425 2    50   ~ 0
 RF1CLK
 $Comp
-L kapukiTRX-hw-trx-rescue:R-Device R4
+L Device:R R4
 U 1 1 5C7B6C85
 P 2350 2075
 F 0 "R4" H 2420 2121 50  0000 L CNN
@@ -290,7 +290,7 @@ F21 "RF1NSS" I L 7550 4850 50
 F22 "RF2NSS" I R 9175 4850 50 
 $EndSheet
 $Comp
-L kapukiTRX-hw-trx-rescue:LP38693-LP38693 U2
+L LP38693:LP38693 U2
 U 1 1 5C7DD5FC
 P 9625 1200
 F 0 "U2" H 9625 1565 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "http://www.ti.com/lit/ds/snvs321o/snvs321o.pdf" H 9625 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C11
+L Device:C C11
 U 1 1 5C7DD655
 P 10425 1250
 F 0 "C11" H 10540 1296 50  0000 L CNN
@@ -312,7 +312,7 @@ F 3 "~" H 10425 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C10
+L Device:C C10
 U 1 1 5C7DD6C5
 P 8475 1250
 F 0 "C10" H 8590 1296 50  0000 L CNN
@@ -371,7 +371,7 @@ $EndComp
 Wire Wire Line
 	8475 1000 8475 1100
 $Comp
-L kapukiTRX-hw-trx-rescue:R-Device R5
+L Device:R R5
 U 1 1 5C8015BC
 P 9025 1300
 F 0 "R5" V 8925 1250 50  0000 C CNN
@@ -575,7 +575,7 @@ Wire Wire Line
 Wire Wire Line
 	5275 6855 5975 6855
 $Comp
-L kapukiTRX-hw-trx-rescue:Conn_01x06-Connector_Generic J1
+L Connector_Generic:Conn_01x06 J1
 U 1 1 5C9C8B95
 P 825 5725
 F 0 "J1" H 745 6142 50  0000 C CNN
@@ -621,7 +621,7 @@ GPSPPS
 Text Label 2425 6025 2    50   ~ 0
 GPSEN
 $Comp
-L kapukiTRX-hw-trx-rescue:Conn_01x05-Connector_Generic J2
+L Connector_Generic:Conn_01x05 J2
 U 1 1 5CC22AC7
 P 6175 6755
 F 0 "J2" H 6255 6797 50  0000 L CNN
@@ -638,7 +638,7 @@ NRST
 Text Label 2925 1725 2    50   ~ 0
 NRST
 $Comp
-L kapukiTRX-hw-trx-rescue:R-Device R6
+L Device:R R6
 U 1 1 5CC4355B
 P 10800 1275
 F 0 "R6" H 10870 1321 50  0000 L CNN
@@ -649,7 +649,7 @@ F 3 "~" H 10800 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:LED-Device D2
+L Device:LED D2
 U 1 1 5CC43666
 P 10800 1750
 F 0 "D2" V 10838 1633 50  0000 R CNN
@@ -680,7 +680,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 1900 10800 1975
 $Comp
-L kapukiTRX-hw-trx-rescue:LED_ARGB-Device D1
+L Device:LED_ARGB D1
 U 1 1 5CC6499C
 P 1400 7175
 F 0 "D1" H 1400 7672 50  0000 C CNN
@@ -691,7 +691,7 @@ F 3 "~" H 1400 7125 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:R-Device R1
+L Device:R R1
 U 1 1 5CC64B2C
 P 1825 6975
 F 0 "R1" V 1750 6975 50  0000 C CNN
@@ -702,7 +702,7 @@ F 3 "~" H 1825 6975 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:R-Device R2
+L Device:R R2
 U 1 1 5CC64BCA
 P 1825 7175
 F 0 "R2" V 1750 7175 50  0000 C CNN
@@ -713,7 +713,7 @@ F 3 "~" H 1825 7175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L kapukiTRX-hw-trx-rescue:R-Device R3
+L Device:R R3
 U 1 1 5CC64C2E
 P 1825 7375
 F 0 "R3" V 1750 7375 50  0000 C CNN
@@ -784,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	2375 2975 2350 2975
 $Comp
-L kapukiTRX-hw-trx-rescue:Crystal_GND24-Device Y1
+L Device:Crystal_GND24 Y1
 U 1 1 5CE6BFA7
 P 2150 2975
 F 0 "Y1" V 2075 3225 50  0000 L CNN
@@ -811,7 +811,7 @@ Connection ~ 2150 3150
 Wire Wire Line
 	2150 3150 2750 3150
 $Comp
-L kapukiTRX-hw-trx-rescue:C-Device C5
+L Device:C C5
 U 1 1 5CF3CB0A
 P 1950 2050
 F 0 "C5" H 2065 2096 50  0000 L CNN
@@ -917,7 +917,7 @@ Connection ~ 4200 1465
 Wire Wire Line
 	4200 1465 4200 1440
 $Comp
-L kapukiTRX-hw-trx-rescue:STM32L476RGTx-MCU_ST_STM32L4 U1
+L MCU_ST_STM32L4:STM32L476RGTx U1
 U 1 1 5DB83729
 P 3625 3325
 F 0 "U1" H 3080 1570 50  0000 C CNN
