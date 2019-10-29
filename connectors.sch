@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title "kapukiTRX - transmitter & 8 channel receiver"
 Date "2019-10-27"
 Rev "2"
