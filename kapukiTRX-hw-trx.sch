@@ -626,8 +626,8 @@ $Comp
 L STM32G:STM32G474VE U1
 U 1 1 5DD2FEBD
 P 3550 4300
-F 0 "U1" H 2900 6850 50  0000 C CNN
-F 1 "STM32G474VE" H 4150 6850 50  0000 C CNN
+F 0 "U1" H 3550 4400 50  0000 C CNN
+F 1 "STM32G474VE" H 3550 4300 50  0000 C CNN
 F 2 "miscellaneous:TFBGA-100_10x10_8.0x8.0mm" H 3550 4300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stm32g474cb.pdf" H 3550 4300 50  0001 C CNN
 	1    3550 4300
@@ -974,13 +974,13 @@ Wire Wire Line
 	2250 2750 2650 2750
 Wire Wire Line
 	1550 3000 2250 3000
-Text Label 2425 6025 2    50   ~ 0
+Text Label 1575 6025 2    50   ~ 0
 GPSEN
-Text Label 2425 5925 2    50   ~ 0
+Text Label 1575 5925 2    50   ~ 0
 GPSPPS
-Text Label 2425 5725 2    50   ~ 0
+Text Label 1575 5725 2    50   ~ 0
 GPSTX
-Text Label 2425 5825 2    50   ~ 0
+Text Label 1575 5825 2    50   ~ 0
 GPSRX
 Text Label 1475 5525 2    50   ~ 0
 VCCCPU
@@ -1002,13 +1002,13 @@ F 3 "" H 1175 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1025 6025 2425 6025
+	1025 6025 1575 6025
 Wire Wire Line
-	1025 5925 2425 5925
+	1025 5925 1575 5925
 Wire Wire Line
-	1025 5825 2425 5825
+	1025 5825 1575 5825
 Wire Wire Line
-	1025 5725 2425 5725
+	1025 5725 1575 5725
 $Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 5C9C8B95
@@ -1042,6 +1042,17 @@ F 1 "100nF" H 2515 2305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2438 2200 50  0001 C CNN
 F 3 "~" H 2400 2350 50  0001 C CNN
 	1    2400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5E0BD70F
+P 1200 4050
+F 0 "JP?" H 1200 4255 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 1200 4164 50  0000 C CNN
+F 2 "" H 1200 4050 50  0001 C CNN
+F 3 "~" H 1200 4050 50  0001 C CNN
+	1    1200 4050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
