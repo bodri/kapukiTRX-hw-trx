@@ -33,28 +33,18 @@ F12 "GND" I R 7950 1300 50
 F13 "PWMOE" I L 6300 1100 50 
 F14 "CANRX" O R 7950 2025 50 
 F15 "CANTX" I R 7950 2125 50 
+F16 "CANEN" I R 7950 1920 50 
 $EndSheet
 Text Label 5275 6655 0    50   ~ 0
 SWCLK
-Text Label 5275 4725 0    50   ~ 0
+Text Label 2650 5700 2    50   ~ 0
 PWM2
-Text Label 5275 3325 0    50   ~ 0
+Text Label 4450 5000 0    50   ~ 0
 RF1MISO
-Text Label 5275 3425 0    50   ~ 0
+Text Label 4450 5100 0    50   ~ 0
 RF1MOSI
-Text Label 3125 7225 2    50   ~ 0
-RF1CLK
-$Comp
-L Device:R R4
-U 1 1 5C7B6C85
-P 1700 2125
-F 0 "R4" H 1770 2171 50  0000 L CNN
-F 1 "10k" H 1770 2080 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1630 2125 50  0001 C CNN
-F 3 "~" H 1700 2125 50  0001 C CNN
-	1    1700 2125
-	1    0    0    -1  
-$EndComp
+Text Label 4450 4700 0    50   ~ 0
+BNOINT
 $Sheet
 S 7550 2675 1625 1675
 U 5C7B9FBC
@@ -323,43 +313,43 @@ Text Label 5700 6555 0    50   ~ 0
 VCCCPU
 Text Label 6250 1100 2    50   ~ 0
 PWMOE
-Text Label 5275 4225 0    50   ~ 0
+Text Label 4450 3400 0    50   ~ 0
 PWM1
-Text Label 4285 7505 2    50   ~ 0
+Text Label 2650 6400 2    50   ~ 0
 RF1NRESET
-Text Label 10685 3670 2    50   ~ 0
+Text Label 2650 4900 2    50   ~ 0
 RF1RXEN
-Text Label 10695 4850 2    50   ~ 0
+Text Label 2650 6800 2    50   ~ 0
 RF1TXEN
-Text Label 10695 4950 2    50   ~ 0
+Text Label 2650 6500 2    50   ~ 0
 RF1BUSY
-Text Label 10695 5050 2    50   ~ 0
+Text Label 2650 6100 2    50   ~ 0
 RF1IRQ
-Text Label 10695 5650 2    50   ~ 0
+Text Label 4450 4800 0    50   ~ 0
 RF1NSS
-Text Label 10710 4065 2    50   ~ 0
+Text Label 4450 5800 0    50   ~ 0
 RF2NRESET
-Text Label 10710 4165 2    50   ~ 0
+Text Label 4450 5600 0    50   ~ 0
 RF2RXEN
-Text Label 10710 4265 2    50   ~ 0
+Text Label 4450 3700 0    50   ~ 0
 RF2TXEN
-Text Label 10710 4365 2    50   ~ 0
+Text Label 4450 5700 0    50   ~ 0
 RF2BUSY
-Text Label 10710 4465 2    50   ~ 0
+Text Label 2650 4600 2    50   ~ 0
 RF2IRQ
-Text Label 10665 4610 2    50   ~ 0
+Text Label 4450 6000 0    50   ~ 0
 PWMOE
-Text Label 10665 4685 2    50   ~ 0
+Text Label 4450 3600 0    50   ~ 0
 RFPOWEREN
 Text Label 7500 3000 2    50   ~ 0
 RFPOWEREN
-Text Label 3125 7325 2    50   ~ 0
+Text Label 4450 4200 0    50   ~ 0
 RF2MISO
-Text Label 10685 3925 2    50   ~ 0
+Text Label 4450 4100 0    50   ~ 0
 RF2CLK
-Text Label 5275 3925 0    50   ~ 0
+Text Label 4450 4000 0    50   ~ 0
 CANTX
-Text Label 10685 3825 2    50   ~ 0
+Text Label 4450 2300 0    50   ~ 0
 RF2NSS
 Wire Wire Line
 	5625 6755 5975 6755
@@ -484,11 +474,11 @@ Text Label 1975 7175 0    50   ~ 0
 LEDGREEN
 Text Label 1975 7375 0    50   ~ 0
 LEDBLUE
-Text Label 10695 5150 2    50   ~ 0
+Text Label 2650 3900 2    50   ~ 0
 LEDRED
-Text Label 10695 5250 2    50   ~ 0
+Text Label 2650 4000 2    50   ~ 0
 LEDGREEN
-Text Label 10695 5350 2    50   ~ 0
+Text Label 2650 4100 2    50   ~ 0
 LEDBLUE
 Wire Wire Line
 	7950 2025 8325 2025
@@ -520,7 +510,7 @@ F 3 "~" H 3850 7150 50  0001 C CNN
 	1    3850 7150
 	0    1    1    0   
 $EndComp
-Text Label 5275 3825 0    50   ~ 0
+Text Label 4450 2900 0    50   ~ 0
 CANRX
 Text Label 6250 1300 2    50   ~ 0
 PWM1
@@ -556,40 +546,38 @@ Wire Wire Line
 	6300 2125 5945 2125
 Text Label 5275 6855 0    50   ~ 0
 SWDIO
-Text Label 5275 4125 0    50   ~ 0
+Text Label 4450 3300 0    50   ~ 0
 SWCLK
-Text Label 5275 4025 0    50   ~ 0
+Text Label 4450 3200 0    50   ~ 0
 SWDIO
-Text Label 5275 2725 0    50   ~ 0
+Text Label 2650 3250 2    50   ~ 0
 PWM8
-Text Label 5275 2825 0    50   ~ 0
+Text Label 4450 6500 0    50   ~ 0
 PWM7
-Text Label 5275 2925 0    50   ~ 0
+Text Label 4450 2100 0    50   ~ 0
 PWM6
-Text Label 5275 3025 0    50   ~ 0
+Text Label 4450 1900 0    50   ~ 0
 PWM5
-Text Label 5275 3225 0    50   ~ 0
+Text Label 4450 4900 0    50   ~ 0
 RF1CLK
-Text Label 3125 7425 2    50   ~ 0
+Text Label 4450 4300 0    50   ~ 0
 RF2MOSI
-Text Label 5275 5425 0    50   ~ 0
+Text Label 2650 6000 2    50   ~ 0
 PWM4
-Text Label 5275 5525 0    50   ~ 0
+Text Label 2650 5900 2    50   ~ 0
 PWM3
-Text Label 5275 3725 0    50   ~ 0
+Text Label 4450 3900 0    50   ~ 0
 GPSRX
-Text Label 5275 3625 0    50   ~ 0
+Text Label 4450 2800 0    50   ~ 0
 GPSTX
-Text Label 5275 3525 0    50   ~ 0
+Text Label 4450 2700 0    50   ~ 0
 GPSPPS
-Text Label 3125 7125 2    50   ~ 0
+Text Label 4450 6200 0    50   ~ 0
 GPSEN
 Text Label 8320 1920 2    50   ~ 0
 CANEN
 Wire Wire Line
 	7950 1920 8320 1920
-Text HLabel 7950 1920 0    50   Output ~ 0
-CANEN
 Text Label 7500 4900 2    50   ~ 0
 VCCCPU
 Wire Wire Line
@@ -614,8 +602,8 @@ S 7550 4750 1700 1050
 U 5DB88B39
 F0 "Sensors" 50
 F1 "sensors.sch" 50
-F2 "BMPINT" O R 9250 5250 50 
-F3 "BNOINT" O R 9250 5600 50 
+F2 "BMPINT" O R 9250 5600 50 
+F3 "BNOINT" O R 9250 5250 50 
 F4 "BNORESET" I R 9250 5150 50 
 F5 "GND" I L 7550 5700 50 
 F6 "VCC" I L 7550 4900 50 
@@ -1044,15 +1032,103 @@ F 3 "~" H 2400 2350 50  0001 C CNN
 	1    2400 2350
 	1    0    0    -1  
 $EndComp
+Text Label 4450 4500 0    50   ~ 0
+SDA
+Text Label 4450 4400 0    50   ~ 0
+SCL
+Text Label 7500 5150 2    50   ~ 0
+SDA
+Text Label 7500 5250 2    50   ~ 0
+SCL
+Wire Wire Line
+	7550 5150 7000 5150
+Wire Wire Line
+	7550 5250 7000 5250
+Text Label 2650 5100 2    50   ~ 0
+BNORESET
+Text Label 9300 5150 0    50   ~ 0
+BNORESET
+Wire Wire Line
+	9250 5150 9800 5150
+Text Label 9300 5250 0    50   ~ 0
+BNOINT
+Text Label 9300 5600 0    50   ~ 0
+BMPINT
+Wire Wire Line
+	9250 5250 9800 5250
+Wire Wire Line
+	9250 5600 9800 5600
+Text Label 2650 4200 2    50   ~ 0
+CANEN
 $Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 5E0BD70F
-P 1200 4050
-F 0 "JP?" H 1200 4255 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1200 4164 50  0000 C CNN
-F 2 "" H 1200 4050 50  0001 C CNN
-F 3 "~" H 1200 4050 50  0001 C CNN
-	1    1200 4050
+L Device:R R4
+U 1 1 5C7B6C85
+P 850 4750
+F 0 "R4" H 920 4796 50  0000 L CNN
+F 1 "10k" H 920 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 780 4750 50  0001 C CNN
+F 3 "~" H 850 4750 50  0001 C CNN
+	1    850  4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5DCBC9B2
+P 850 4950
+F 0 "#PWR0112" H 850 4700 50  0001 C CNN
+F 1 "GND" H 855 4777 50  0000 C CNN
+F 2 "" H 850 4950 50  0001 C CNN
+F 3 "" H 850 4950 50  0001 C CNN
+	1    850  4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  4950 850  4900
+Wire Wire Line
+	850  4600 850  4500
+Wire Wire Line
+	850  4500 1350 4500
+Text Label 950  4500 0    50   ~ 0
+TXMODE
+Text Label 2650 5800 2    50   ~ 0
+TXMODE
+NoConn ~ 2650 5300
+NoConn ~ 2650 5400
+NoConn ~ 2650 5500
+NoConn ~ 2650 5600
+NoConn ~ 2650 6300
+NoConn ~ 2650 5000
+NoConn ~ 2650 4800
+NoConn ~ 2650 4700
+NoConn ~ 2650 4500
+NoConn ~ 2650 4400
+NoConn ~ 2650 4300
+NoConn ~ 2650 3350
+NoConn ~ 2650 3150
+NoConn ~ 4450 2000
+NoConn ~ 4450 2200
+NoConn ~ 4450 2400
+NoConn ~ 4450 2500
+NoConn ~ 4450 2600
+NoConn ~ 4450 3000
+NoConn ~ 4450 3100
+NoConn ~ 4450 3800
+NoConn ~ 4450 4600
+NoConn ~ 4450 5300
+NoConn ~ 4450 5400
+NoConn ~ 4450 5500
+NoConn ~ 4450 5900
+NoConn ~ 4450 6100
+NoConn ~ 4450 6300
+NoConn ~ 4450 6400
+NoConn ~ 4450 6600
+NoConn ~ 4450 6700
+NoConn ~ 4450 6800
+NoConn ~ 2650 6700
+NoConn ~ 2650 6600
+NoConn ~ 2650 3600
+NoConn ~ 2650 3700
+NoConn ~ 2650 3800
+Text Label 2650 6200 2    50   ~ 0
+BMPINT
 $EndSCHEMATC
