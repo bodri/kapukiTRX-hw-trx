@@ -343,9 +343,9 @@ Text Label 4450 3600 0    50   ~ 0
 RFPOWEREN
 Text Label 7500 3000 2    50   ~ 0
 RFPOWEREN
-Text Label 4450 4200 0    50   ~ 0
+Text Label 4450 2500 0    50   ~ 0
 RF2MISO
-Text Label 4450 4100 0    50   ~ 0
+Text Label 4450 2400 0    50   ~ 0
 RF2CLK
 Text Label 4450 4000 0    50   ~ 0
 CANTX
@@ -560,7 +560,7 @@ Text Label 4450 1900 0    50   ~ 0
 PWM5
 Text Label 4450 4900 0    50   ~ 0
 RF1CLK
-Text Label 4450 4300 0    50   ~ 0
+Text Label 4450 2600 0    50   ~ 0
 RF2MOSI
 Text Label 2650 6000 2    50   ~ 0
 PWM4
@@ -1107,9 +1107,9 @@ NoConn ~ 2650 3350
 NoConn ~ 2650 3150
 NoConn ~ 4450 2000
 NoConn ~ 4450 2200
-NoConn ~ 4450 2400
-NoConn ~ 4450 2500
-NoConn ~ 4450 2600
+NoConn ~ 4450 4100
+NoConn ~ 4450 4200
+NoConn ~ 4450 4300
 NoConn ~ 4450 3000
 NoConn ~ 4450 3100
 NoConn ~ 4450 3800
