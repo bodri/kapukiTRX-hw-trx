@@ -1,4 +1,4 @@
-update=2019 November 02, Saturday 23:42:10
+update=11/8/2019 23:05:16
 version=1
 last_client=kicad
 [general]
@@ -261,8 +261,8 @@ dPairViaGap=0.25
 Name=VCC
 Clearance=0.1524
 TrackWidth=0.254
-ViaDiameter=0.4572
-ViaDrill=0.254
+ViaDiameter=0.6858
+ViaDrill=0.3302
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.127
