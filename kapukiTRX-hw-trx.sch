@@ -548,11 +548,11 @@ Text Label 4450 3300 0    50   ~ 0
 SWCLK
 Text Label 4450 3200 0    50   ~ 0
 SWDIO
-Text Label 2650 3250 2    50   ~ 0
+Text Label 4450 2100 0    50   ~ 0
 PWM8
 Text Label 4450 1900 0    50   ~ 0
 PWM7
-Text Label 4450 2100 0    50   ~ 0
+Text Label 2650 3250 2    50   ~ 0
 PWM6
 Text Label 4450 3400 0    50   ~ 0
 PWM5

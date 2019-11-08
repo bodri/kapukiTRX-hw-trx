@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
 
   (general
     (thickness 1.6)
@@ -694,7 +694,7 @@
     (pad F3 smd circle (at -2 0.4) (size 0.36 0.36) (layers F.Cu F.Paste F.Mask)
       (net 32 /NRST))
     (pad E3 smd circle (at -2 -0.4) (size 0.36 0.36) (layers F.Cu F.Paste F.Mask)
-      (net 45 /PWM8))
+      (net 47 /PWM6))
     (pad D3 smd circle (at -2 -1.2) (size 0.36 0.36) (layers F.Cu F.Paste F.Mask)
       (net 111 "Net-(U1-PadD3)"))
     (pad C3 smd circle (at -2 -2) (size 0.36 0.36) (layers F.Cu F.Paste F.Mask)
@@ -728,7 +728,7 @@
     (pad J1 smd circle (at -3.6 2.8) (size 0.36 0.36) (layers F.Cu F.Paste F.Mask)
       (net 16 /RF2CLK))
     (pad H1 smd circle (at -3.6 2) (size 0.36 0.36) (layers F.Cu F.Paste F.Mask)
-      (net 47 /PWM6))
+      (net 45 /PWM8))
     (pad G1 smd circle (at -3.6 1.2) (size 0.36 0.36) (layers F.Cu F.Paste F.Mask)
       (net 18 /RF2RXEN))
     (pad F1 smd circle (at -3.6 0.4) (size 0.36 0.36) (layers F.Cu F.Paste F.Mask)
