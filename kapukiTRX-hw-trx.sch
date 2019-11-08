@@ -476,9 +476,9 @@ Text Label 1975 7375 0    50   ~ 0
 LEDBLUE
 Text Label 2650 3900 2    50   ~ 0
 LEDRED
-Text Label 2650 4000 2    50   ~ 0
-LEDGREEN
 Text Label 2650 4100 2    50   ~ 0
+LEDGREEN
+Text Label 2650 4000 2    50   ~ 0
 LEDBLUE
 Wire Wire Line
 	7950 2025 8325 2025

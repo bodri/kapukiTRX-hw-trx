@@ -219,8 +219,8 @@ U 1 1 5DBA7989
 P 4650 5850
 F 0 "U8" H 4350 6300 50  0000 L CNN
 F 1 "BMP388" H 4750 6300 50  0000 L CNN
-F 2 "" H 4650 5850 50  0001 C CNN
-F 3 "" H 4650 5850 50  0001 C CNN
+F 2 "miscellaneous:Bosch_LGA10_2x2mm_Pitch0.5mm" H 4650 5850 50  0001 C CNN
+F 3 "https://www.mouser.com/pdfdocs/BST-BMP388-DS001-01.pdf" H 4650 5850 50  0001 C CNN
 	1    4650 5850
 	1    0    0    -1  
 $EndComp
