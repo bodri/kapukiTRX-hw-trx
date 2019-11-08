@@ -37,8 +37,6 @@ F16 "CANEN" I R 7950 1920 50
 $EndSheet
 Text Label 5275 6655 0    50   ~ 0
 SWCLK
-Text Label 2650 5700 2    50   ~ 0
-PWM2
 Text Label 4450 5000 0    50   ~ 0
 RF1MISO
 Text Label 4450 5100 0    50   ~ 0
@@ -313,7 +311,7 @@ Text Label 5700 6555 0    50   ~ 0
 VCCCPU
 Text Label 6250 1100 2    50   ~ 0
 PWMOE
-Text Label 4450 3400 0    50   ~ 0
+Text Label 2650 5900 2    50   ~ 0
 PWM1
 Text Label 2650 6400 2    50   ~ 0
 RF1NRESET
@@ -552,19 +550,17 @@ Text Label 4450 3200 0    50   ~ 0
 SWDIO
 Text Label 2650 3250 2    50   ~ 0
 PWM8
-Text Label 4450 6500 0    50   ~ 0
+Text Label 4450 1900 0    50   ~ 0
 PWM7
 Text Label 4450 2100 0    50   ~ 0
 PWM6
-Text Label 4450 1900 0    50   ~ 0
+Text Label 4450 3400 0    50   ~ 0
 PWM5
 Text Label 4450 4900 0    50   ~ 0
 RF1CLK
 Text Label 4450 2600 0    50   ~ 0
 RF2MOSI
-Text Label 2650 6000 2    50   ~ 0
-PWM4
-Text Label 2650 5900 2    50   ~ 0
+Text Label 2650 5700 2    50   ~ 0
 PWM3
 Text Label 4450 3900 0    50   ~ 0
 GPSRX
@@ -1090,7 +1086,7 @@ Wire Wire Line
 	850  4500 1350 4500
 Text Label 950  4500 0    50   ~ 0
 TXMODE
-Text Label 2650 5800 2    50   ~ 0
+Text Label 4450 4200 0    50   ~ 0
 TXMODE
 NoConn ~ 2650 5300
 NoConn ~ 2650 5400
@@ -1108,7 +1104,7 @@ NoConn ~ 2650 3150
 NoConn ~ 4450 2000
 NoConn ~ 4450 2200
 NoConn ~ 4450 4100
-NoConn ~ 4450 4200
+NoConn ~ 2650 5800
 NoConn ~ 4450 4300
 NoConn ~ 4450 3000
 NoConn ~ 4450 3100
@@ -1131,4 +1127,8 @@ NoConn ~ 2650 3700
 NoConn ~ 2650 3800
 Text Label 2650 6200 2    50   ~ 0
 BMPINT
+Text Label 4450 6500 0    50   ~ 0
+PWM4
+Text Label 2650 6000 2    50   ~ 0
+PWM2
 $EndSCHEMATC
