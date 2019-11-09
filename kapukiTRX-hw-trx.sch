@@ -1182,4 +1182,24 @@ RXTX
 Wire Wire Line
 	4950 6300 5150 6300
 Connection ~ 4950 6300
+$Comp
+L Device:CP C41
+U 1 1 5DCE2D86
+P 950 1000
+F 0 "C41" H 1068 1046 50  0000 L CNN
+F 1 "10uF" H 1068 955 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 988 850 50  0001 C CNN
+F 3 "~" H 950 1000 50  0001 C CNN
+	1    950  1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  850  950  650 
+Wire Wire Line
+	950  650  1400 650 
+Connection ~ 1400 650 
+Wire Wire Line
+	950  1150 950  1350
+Wire Wire Line
+	950  1350 1400 1350
 $EndSCHEMATC
