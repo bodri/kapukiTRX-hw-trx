@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:kapukiTRX-hw-trx-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1115,8 +1114,6 @@ NoConn ~ 4450 5400
 NoConn ~ 4450 5500
 NoConn ~ 4450 5900
 NoConn ~ 4450 6100
-NoConn ~ 4450 6300
-NoConn ~ 4450 6400
 NoConn ~ 4450 6600
 NoConn ~ 4450 6700
 NoConn ~ 4450 6800
@@ -1131,4 +1128,58 @@ Text Label 4450 6500 0    50   ~ 0
 PWM4
 Text Label 2650 6000 2    50   ~ 0
 PWM2
+$Comp
+L Connector_Generic:Conn_01x01 J21
+U 1 1 5DC793B8
+P 6150 5650
+F 0 "J21" H 6100 5750 50  0000 L CNN
+F 1 "Conn_01x01" H 6230 5601 50  0001 L CNN
+F 2 "miscellaneous:PinHeader_1x01_P1.27mm" H 6150 5650 50  0001 C CNN
+F 3 "~" H 6150 5650 50  0001 C CNN
+	1    6150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J22
+U 1 1 5DC79645
+P 6150 5750
+F 0 "J22" H 6100 5650 50  0000 L CNN
+F 1 "Conn_01x01" H 6230 5701 50  0001 L CNN
+F 2 "miscellaneous:PinHeader_1x01_P1.27mm" H 6150 5750 50  0001 C CNN
+F 3 "~" H 6150 5750 50  0001 C CNN
+	1    6150 5750
+	1    0    0    -1  
+$EndComp
+Text Label 5950 5650 2    50   ~ 0
+VCC
+Text Label 5950 5750 2    50   ~ 0
+RXTX
+Wire Wire Line
+	5950 5650 5700 5650
+Wire Wire Line
+	5950 5750 5700 5750
+$Comp
+L Device:R R14
+U 1 1 5DC9D66B
+P 4700 6300
+F 0 "R14" V 4625 6300 50  0000 C CNN
+F 1 "2k4" V 4700 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4630 6300 50  0001 C CNN
+F 3 "~" H 4700 6300 50  0001 C CNN
+	1    4700 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 6300 4550 6300
+Wire Wire Line
+	4450 6400 4950 6400
+Wire Wire Line
+	4950 6400 4950 6300
+Wire Wire Line
+	4950 6300 4850 6300
+Text Label 4900 6300 0    50   ~ 0
+RXTX
+Wire Wire Line
+	4950 6300 5150 6300
+Connection ~ 4950 6300
 $EndSCHEMATC
