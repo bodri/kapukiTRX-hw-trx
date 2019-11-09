@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "kapukiTRX - Sensors"
+Date "2019-11-09"
+Rev "2"
+Comp "bodrico.com"
+Comment1 "Designed by bodri@bodrico.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""

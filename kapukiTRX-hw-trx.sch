@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "kapukiTRX - transmitter & 8 channel receiver"
-Date "2019-10-27"
+Date "2019-11-09"
 Rev "2"
 Comp "bodrico.com"
 Comment1 "Designed by bodri@bodrico.com"
