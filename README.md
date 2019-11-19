@@ -1,10 +1,16 @@
 # Redundant RC transmitter module & 8 channel receiver
 RC Receiver and transmitter module using redundant SX1280 RF modules.
 
-[Pleas take a look to my previous project here](https://github.com/bodri/RcReceiver)
+[Please take a look at my previous project here](https://github.com/bodri/RcReceiver)
 
 # Design
 ![KiCAD 3D view](images/3dimage.png)
 
 # Manufacturing
-I would like to compare the service from [OSHPark](http://oshpark.com) and [JLCPCB](http://jlcpcb.com), so I ordered the same board from both at 10th of November, 2019.
+I would like to compare the service from [OSHPark](http://oshpark.com)/[OSH Stencils](https://www.oshstencils.com) and [JLCPCB](http://jlcpcb.com), so I ordered the same board:
+
+| Manufacturer | Items             | Price  | Order date | Shipped    | Received   | Total days |
+|--------------|-------------------|--------|------------|------------|------------|------------|
+| OSHPark      | 3 PCBs            | $19.80 | 09/11/2019 |            |            |            |
+| OSH Stencils | 1 stencil         | $21.60 | 09/11/2019 | 12/11/2019 | 19/11/2019 | 10         |
+| JLCPCB       | 10 PCBs + stencil | $28.33 | 09/11/2019 | 14/11/2019 |            |            |
