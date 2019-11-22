@@ -11,6 +11,6 @@ I would like to compare the service from [OSHPark](http://oshpark.com)/[OSH Sten
 
 | Manufacturer | Items             | Price  | Order date | Shipped    | Received   | Total days |
 |--------------|-------------------|--------|------------|------------|------------|------------|
-| OSHPark      | 3 PCBs            | $19.80 | 09/11/2019 |            |            |            |
+| OSHPark      | 3 PCBs            | $19.80 | 09/11/2019 | 21/11/2019 |            |            |
 | OSH Stencils | 1 stencil         | $21.60 | 09/11/2019 | 12/11/2019 | 19/11/2019 | 10         |
 | JLCPCB       | 10 PCBs + stencil | $28.33 | 09/11/2019 | 14/11/2019 |            |            |
