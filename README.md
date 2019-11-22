@@ -7,7 +7,7 @@ RC Receiver and transmitter module using redundant SX1280 RF modules.
 ![KiCAD 3D view](images/3dimage.png)
 
 # Manufacturing
-I would like to compare the service from [OSHPark](http://oshpark.com)/[OSH Stencils](https://www.oshstencils.com) and [JLCPCB](http://jlcpcb.com), so I ordered the same board:
+I would like to compare services from [OSHPark](http://oshpark.com)/[OSH Stencils](https://www.oshstencils.com) and [JLCPCB](http://jlcpcb.com), so I ordered:
 
 | Manufacturer | Items             | Price  | Order date | Shipped    | Received   | Total days |
 |--------------|-------------------|--------|------------|------------|------------|------------|
