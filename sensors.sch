@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "kapukiTRX - Sensors"
-Date "2019-11-09"
-Rev "2"
+Date "2020-01-01"
+Rev "3"
 Comp "bodrico.com"
 Comment1 "Designed by bodri@bodrico.com"
 Comment2 ""
@@ -510,4 +510,8 @@ Wire Wire Line
 	4650 6500 4750 6500
 Wire Wire Line
 	4750 6500 4750 6450
+Text Notes 5500 5950 0    50   ~ 0
+Digital pressure sensor
+Text Notes 6350 2800 0    50   ~ 0
+Intelligent 9-axis absolute orientation sensor
 $EndSCHEMATC

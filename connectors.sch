@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "kapukiTRX - CAN, servro connectors"
-Date "2019-11-09"
-Rev "2"
+Date "2020-01-01"
+Rev "3"
 Comp "bodrico.com"
 Comment1 "Designed by bodri@bodrico.com"
 Comment2 ""
@@ -977,4 +977,28 @@ F 3 "~" H 5450 2350 50  0001 C CNN
 	1    5450 2350
 	1    0    0    -1  
 $EndComp
+Text Notes 5550 2450 0    50   ~ 0
+Servo 1
+Text Notes 5550 2900 0    50   ~ 0
+Servo 2
+Text Notes 5550 3350 0    50   ~ 0
+Servo 3
+Text Notes 5550 3800 0    50   ~ 0
+Servo 4
+Text Notes 5550 4250 0    50   ~ 0
+Servo 5
+Text Notes 5550 4700 0    50   ~ 0
+Servo 6
+Text Notes 5550 5150 0    50   ~ 0
+Servo 7
+Text Notes 5550 5600 0    50   ~ 0
+Servo 8
+Wire Notes Line
+	7000 6400 7000 2900
+Wire Notes Line
+	7000 2900 11100 2900
+Text Notes 8750 5850 0    50   ~ 0
+CAN interface
+Text Notes 3900 6950 0    50   ~ 0
+Servo connectors
 $EndSCHEMATC
