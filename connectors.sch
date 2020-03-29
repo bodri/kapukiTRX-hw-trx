@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "kapukiTRX - CAN, servro connectors"
-Date "2020-01-01"
-Rev "3"
+Date "2020-03-29"
+Rev "4"
 Comp "bodrico.com"
 Comment1 "Designed by bodri@bodrico.com"
 Comment2 ""
@@ -390,8 +390,8 @@ U 1 1 5CCDDFD0
 P 9320 4655
 AR Path="/5CCDDFD0" Ref="R?"  Part="1" 
 AR Path="/5C76B390/5CCDDFD0" Ref="R9"  Part="1" 
-F 0 "R9" H 9390 4701 50  0000 L CNN
-F 1 "120R" H 9390 4610 50  0000 L CNN
+F 0 "R9" H 9390 4650 50  0000 L CNN
+F 1 "120R" V 9320 4560 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9250 4655 50  0001 C CNN
 F 3 "~" H 9320 4655 50  0001 C CNN
 	1    9320 4655
@@ -602,7 +602,7 @@ L Device:R R8
 U 1 1 5CD7AFCF
 P 7200 2250
 F 0 "R8" V 7100 2250 50  0000 C CNN
-F 1 "470k" V 7300 2250 50  0000 C CNN
+F 1 "470k" V 7200 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 2250 50  0001 C CNN
 F 3 "~" H 7200 2250 50  0001 C CNN
 	1    7200 2250
@@ -919,7 +919,7 @@ VCCCPU
 Wire Wire Line
 	7625 4355 7755 4355
 Text HLabel 7625 4455 0    50   Input ~ 0
-CANEN
+CANSTBY
 Wire Wire Line
 	7625 4455 7870 4455
 $Comp

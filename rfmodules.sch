@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "kapukiTRX - RF modules"
-Date "2020-01-01"
-Rev "3"
+Date "2020-03-29"
+Rev "4"
 Comp "bodrico.com"
 Comment1 "Designed by bodri@bodrico.com"
 Comment2 ""

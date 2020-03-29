@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "kapukiTRX - transmitter & 8 channel receiver"
-Date "2020-01-01"
-Rev "3"
+Date "2020-03-29"
+Rev "4"
 Comp "bodrico.com"
 Comment1 "Designed by bodri@bodrico.com"
 Comment2 ""
@@ -33,9 +33,9 @@ F12 "GND" I R 7950 1300 50
 F13 "PWMOE" I L 6300 1100 50 
 F14 "CANRX" O R 7950 2025 50 
 F15 "CANTX" I R 7950 2125 50 
-F16 "CANEN" I R 7950 1920 50 
+F16 "CANSTBY" I R 7950 1920 50 
 $EndSheet
-Text Label 5825 5605 0    50   ~ 0
+Text Label 5825 5305 0    50   ~ 0
 SWCLK
 Text Label 4450 5000 0    50   ~ 0
 RF1MISO
@@ -156,7 +156,7 @@ L Device:R R5
 U 1 1 5C8015BC
 P 9025 1300
 F 0 "R5" V 8925 1250 50  0000 C CNN
-F 1 "470k" V 9125 1300 50  0000 C CNN
+F 1 "470k" V 9025 1305 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8955 1300 50  0001 C CNN
 F 3 "~" H 9025 1300 50  0001 C CNN
 	1    9025 1300
@@ -293,21 +293,21 @@ RF1NSS
 Text Label 10125 3900 0    50   ~ 0
 RF2NSS
 Wire Wire Line
-	5825 5605 6525 5605
+	5825 5305 6525 5305
 $Comp
 L power:GND #PWR09
 U 1 1 5C88797A
-P 6175 5905
-F 0 "#PWR09" H 6175 5655 50  0001 C CNN
-F 1 "GND" H 6180 5732 50  0000 C CNN
-F 2 "" H 6175 5905 50  0001 C CNN
-F 3 "" H 6175 5905 50  0001 C CNN
-	1    6175 5905
+P 6175 5605
+F 0 "#PWR09" H 6175 5355 50  0001 C CNN
+F 1 "GND" H 6180 5432 50  0000 C CNN
+F 2 "" H 6175 5605 50  0001 C CNN
+F 3 "" H 6175 5605 50  0001 C CNN
+	1    6175 5605
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6525 5505 6250 5505
-Text Label 6250 5505 0    50   ~ 0
+	6525 5205 6250 5205
+Text Label 6250 5205 0    50   ~ 0
 VCCCPU
 Text Label 6250 1100 2    50   ~ 0
 PWMOE
@@ -350,34 +350,34 @@ CANTX
 Text Label 4450 2300 0    50   ~ 0
 RF2NSS
 Wire Wire Line
-	6175 5705 6525 5705
+	6175 5405 6525 5405
 Wire Wire Line
-	6175 5905 6175 5705
+	6175 5605 6175 5405
 Wire Wire Line
-	5825 5805 6525 5805
+	5825 5505 6525 5505
 $Comp
 L Connector_Generic:Conn_01x05 J2
 U 1 1 5CC22AC7
-P 6725 5705
-F 0 "J2" H 6805 5747 50  0000 L CNN
-F 1 "SWD" H 6805 5656 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical" H 6725 5705 50  0001 C CNN
-F 3 "~" H 6725 5705 50  0001 C CNN
-	1    6725 5705
+P 6725 5405
+F 0 "J2" H 6805 5447 50  0000 L CNN
+F 1 "SWD" H 6805 5356 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical" H 6725 5405 50  0001 C CNN
+F 3 "~" H 6725 5405 50  0001 C CNN
+	1    6725 5405
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6525 5905 6250 5905
-Text Label 6250 5905 0    50   ~ 0
+	6525 5605 6250 5605
+Text Label 6250 5605 0    50   ~ 0
 NRST
-Text Label 2050 2150 2    50   ~ 0
+Text Label 2300 2150 2    50   ~ 0
 NRST
 $Comp
 L Device:R R6
 U 1 1 5CC4355B
 P 10800 1275
-F 0 "R6" H 10870 1321 50  0000 L CNN
-F 1 "1k" H 10870 1230 50  0000 L CNN
+F 0 "R6" H 10870 1280 50  0000 L CNN
+F 1 "1k" V 10800 1230 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10730 1275 50  0001 C CNN
 F 3 "~" H 10800 1275 50  0001 C CNN
 	1    10800 1275
@@ -508,7 +508,7 @@ F 3 "~" H 3850 7150 50  0001 C CNN
 	1    3850 7150
 	0    1    1    0   
 $EndComp
-Text Label 4450 2900 0    50   ~ 0
+Text Label 4450 3900 0    50   ~ 0
 CANRX
 Text Label 6250 1300 2    50   ~ 0
 PWM1
@@ -542,7 +542,7 @@ Wire Wire Line
 	6300 2025 5950 2025
 Wire Wire Line
 	6300 2125 5945 2125
-Text Label 5825 5805 0    50   ~ 0
+Text Label 5825 5505 0    50   ~ 0
 SWDIO
 Text Label 4450 3300 0    50   ~ 0
 SWCLK
@@ -562,7 +562,7 @@ Text Label 4450 2600 0    50   ~ 0
 RF2MOSI
 Text Label 2650 5700 2    50   ~ 0
 PWM3
-Text Label 4450 3900 0    50   ~ 0
+Text Label 4450 2900 0    50   ~ 0
 GPSRX
 Text Label 4450 2800 0    50   ~ 0
 GPSTX
@@ -571,7 +571,7 @@ GPSPPS
 Text Label 4450 6200 0    50   ~ 0
 GPSEN
 Text Label 8320 1920 2    50   ~ 0
-CANEN
+CANSTBY
 Wire Wire Line
 	7950 1920 8320 1920
 Text Label 8400 5150 2    50   ~ 0
@@ -1018,17 +1018,17 @@ $EndComp
 $Comp
 L Device:C C5
 U 1 1 5CF3CB0A
-P 2400 1900
-F 0 "C5" H 2300 2000 50  0000 L CNN
-F 1 "100nF" H 2150 1800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2438 1750 50  0001 C CNN
-F 3 "~" H 2400 1900 50  0001 C CNN
-	1    2400 1900
+P 2400 2300
+F 0 "C5" H 2300 2400 50  0000 L CNN
+F 1 "100nF" H 2150 2200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2438 2150 50  0001 C CNN
+F 3 "~" H 2400 2300 50  0001 C CNN
+	1    2400 2300
 	-1   0    0    1   
 $EndComp
-Text Label 4450 4500 0    50   ~ 0
+Text Label 4450 4100 0    50   ~ 0
 SDA
-Text Label 4450 4400 0    50   ~ 0
+Text Label 4450 6100 0    50   ~ 0
 SCL
 Text Label 8400 5400 2    50   ~ 0
 SDA
@@ -1053,13 +1053,13 @@ Wire Wire Line
 Wire Wire Line
 	10150 5850 10700 5850
 Text Label 2650 4200 2    50   ~ 0
-CANEN
+CANSTBY
 $Comp
 L Device:R R4
 U 1 1 5C7B6C85
 P 1000 4250
-F 0 "R4" H 1070 4296 50  0000 L CNN
-F 1 "10k" H 1070 4205 50  0000 L CNN
+F 0 "R4" H 1070 4250 50  0000 L CNN
+F 1 "10k" V 990 4180 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 930 4250 50  0001 C CNN
 F 3 "~" H 1000 4250 50  0001 C CNN
 	1    1000 4250
@@ -1097,7 +1097,6 @@ NoConn ~ 2650 3350
 NoConn ~ 2650 3150
 NoConn ~ 4450 2000
 NoConn ~ 4450 2200
-NoConn ~ 4450 4100
 NoConn ~ 2650 5800
 NoConn ~ 4450 4300
 NoConn ~ 4450 3000
@@ -1108,11 +1107,9 @@ NoConn ~ 4450 5300
 NoConn ~ 4450 5400
 NoConn ~ 4450 5500
 NoConn ~ 4450 5900
-NoConn ~ 4450 6100
 NoConn ~ 4450 6600
 NoConn ~ 4450 6700
 NoConn ~ 4450 6800
-NoConn ~ 2650 6700
 NoConn ~ 2650 6600
 NoConn ~ 2650 3600
 NoConn ~ 2650 3700
@@ -1126,33 +1123,33 @@ PWM2
 $Comp
 L Connector_Generic:Conn_01x01 J21
 U 1 1 5DC793B8
+P 6400 4350
+F 0 "J21" H 6350 4450 50  0000 L CNN
+F 1 "Conn_01x01" H 6480 4301 50  0001 L CNN
+F 2 "miscellaneous:PinHeader_1x01_P1.27mm" H 6400 4350 50  0001 C CNN
+F 3 "~" H 6400 4350 50  0001 C CNN
+	1    6400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J22
+U 1 1 5DC79645
 P 6400 4450
-F 0 "J21" H 6350 4550 50  0000 L CNN
+F 0 "J22" H 6350 4350 50  0000 L CNN
 F 1 "Conn_01x01" H 6480 4401 50  0001 L CNN
 F 2 "miscellaneous:PinHeader_1x01_P1.27mm" H 6400 4450 50  0001 C CNN
 F 3 "~" H 6400 4450 50  0001 C CNN
 	1    6400 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J22
-U 1 1 5DC79645
-P 6400 4550
-F 0 "J22" H 6350 4450 50  0000 L CNN
-F 1 "Conn_01x01" H 6480 4501 50  0001 L CNN
-F 2 "miscellaneous:PinHeader_1x01_P1.27mm" H 6400 4550 50  0001 C CNN
-F 3 "~" H 6400 4550 50  0001 C CNN
-	1    6400 4550
-	1    0    0    -1  
-$EndComp
-Text Label 6200 4450 2    50   ~ 0
+Text Label 6200 4350 2    50   ~ 0
 VCC
-Text Label 6200 4550 2    50   ~ 0
+Text Label 6200 4450 2    50   ~ 0
 RXTX
 Wire Wire Line
-	6200 4450 5950 4450
+	6200 4350 5950 4350
 Wire Wire Line
-	6200 4550 5950 4550
+	6200 4450 5950 4450
 $Comp
 L Device:R R14
 U 1 1 5DC9D66B
@@ -1205,8 +1202,8 @@ $Comp
 L Device:R R15
 U 1 1 5E18C312
 P 1000 4650
-F 0 "R15" H 1070 4696 50  0000 L CNN
-F 1 "0" H 1070 4605 50  0000 L CNN
+F 0 "R15" H 1070 4650 50  0000 L CNN
+F 1 "0" V 990 4630 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 930 4650 50  0001 C CNN
 F 3 "~" H 1000 4650 50  0001 C CNN
 	1    1000 4650
@@ -1221,38 +1218,7 @@ Wire Wire Line
 Connection ~ 1000 4450
 Wire Wire Line
 	1000 4100 1000 4050
-$Comp
-L Device:R R16
-U 1 1 5E1E5C91
-P 2200 1900
-F 0 "R16" H 2270 1946 50  0000 L CNN
-F 1 "10k" H 2270 1855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2130 1900 50  0001 C CNN
-F 3 "~" H 2200 1900 50  0001 C CNN
-	1    2200 1900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2400 2150 2400 2050
-Wire Wire Line
-	2400 2150 2200 2150
-Wire Wire Line
-	2200 2150 2200 2050
 Connection ~ 2400 2150
-Wire Wire Line
-	2200 2150 1800 2150
-Connection ~ 2200 2150
-Wire Wire Line
-	2200 1750 2200 1700
-Wire Wire Line
-	2200 1700 2400 1700
-Wire Wire Line
-	2400 1700 2400 1750
-Text Label 2250 1700 0    50   ~ 0
-VCCCPU
-Wire Wire Line
-	2400 1700 2600 1700
-Connection ~ 2400 1700
 Wire Notes Line
 	2100 3650 600  3650
 Wire Notes Line
@@ -1267,19 +1233,17 @@ Wire Notes Line
 	7400 2650 7400 6450
 Wire Notes Line
 	5350 4000 7400 4000
-Wire Notes Line
-	5350 5000 7400 5000
-Text Notes 6050 3950 0    50   ~ 0
+Text Notes 6050 3900 0    50   ~ 0
 Status LED
-Text Notes 6000 4950 0    50   ~ 0
+Text Notes 6000 4800 0    50   ~ 0
 Extra serial port
-Text Notes 5950 6400 0    50   ~ 0
+Text Notes 5950 6100 0    50   ~ 0
 SWD programming port
 Wire Notes Line
 	7400 4800 11150 4800
 Text Notes 8450 4750 0    50   ~ 0
 Redundant SX1280 RF modules (2.4 GHz)
-Text Notes 7650 6450 0    50   ~ 0
+Text Notes 7600 6400 0    50   ~ 0
 Sensors (9-axis absolute orientation sensor & pressure sensor for altitude measurement)
 Text Notes 750  5400 0    50   ~ 0
 Transmitter or receiver selection\nR15 mounter: transmitter\nR15 not mounted: receiver
@@ -1289,4 +1253,95 @@ Text Notes 8000 2600 0    50   ~ 0
 CAN and servo interface
 Text Notes 3400 7650 0    50   ~ 0
 Main CPU
+Wire Wire Line
+	2050 2150 2400 2150
+Wire Wire Line
+	2400 2500 2400 2450
+$Comp
+L Device:R R16
+U 1 1 5E8841F2
+P 6050 6650
+F 0 "R16" H 6120 6650 50  0000 L CNN
+F 1 "10k" V 6040 6580 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 6650 50  0001 C CNN
+F 3 "~" H 6050 6650 50  0001 C CNN
+	1    6050 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5E88472C
+P 6050 7050
+F 0 "R17" H 6120 7050 50  0000 L CNN
+F 1 "10k" V 6040 6980 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 7050 50  0001 C CNN
+F 3 "~" H 6050 7050 50  0001 C CNN
+	1    6050 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5E884936
+P 6050 7250
+F 0 "#PWR030" H 6050 7000 50  0001 C CNN
+F 1 "GND" H 6200 7200 50  0000 C CNN
+F 2 "" H 6050 7250 50  0001 C CNN
+F 3 "" H 6050 7250 50  0001 C CNN
+	1    6050 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 7250 6050 7200
+Wire Wire Line
+	6050 6900 6050 6850
+Text Label 6150 6450 0    50   ~ 0
+VCC
+Wire Wire Line
+	6050 6500 6050 6450
+Wire Wire Line
+	6050 6450 6350 6450
+Wire Wire Line
+	6050 6850 6500 6850
+Connection ~ 6050 6850
+Wire Wire Line
+	6050 6850 6050 6800
+Text Notes 5750 7600 0    50   ~ 0
+Input (battery) voltage\nmeasurement
+Wire Notes Line
+	5350 4950 7400 4950
+Wire Notes Line
+	5350 6250 7400 6250
+Text Label 6200 6850 0    50   ~ 0
+UMEAS
+Text Label 2650 6700 2    50   ~ 0
+UMEAS
+$Comp
+L Device:R R18
+U 1 1 5E907618
+P 4750 4400
+F 0 "R18" V 4650 4350 50  0000 C CNN
+F 1 "10k" V 4750 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 4400 50  0001 C CNN
+F 3 "~" H 4750 4400 50  0001 C CNN
+	1    4750 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5E907CB8
+P 5150 4550
+F 0 "#PWR0113" H 5150 4300 50  0001 C CNN
+F 1 "GND" H 5150 4400 50  0000 C CNN
+F 2 "" H 5150 4550 50  0001 C CNN
+F 3 "" H 5150 4550 50  0001 C CNN
+	1    5150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4400 4600 4400
+Wire Wire Line
+	4900 4400 5150 4400
+Wire Wire Line
+	5150 4400 5150 4550
+NoConn ~ 4450 4500
 $EndSCHEMATC
