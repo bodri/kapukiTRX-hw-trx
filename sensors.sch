@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Motion:BNO055 U7
+L kapukiTRX-hw-trx-rescue:BNO055-Sensor_Motion U7
 U 1 1 5DB894CB
 P 4600 2800
+AR Path="/5DB894CB" Ref="U7"  Part="1" 
+AR Path="/5DB88B39/5DB894CB" Ref="U7"  Part="1" 
 F 0 "U7" H 4150 3450 50  0000 C CNN
 F 1 "BNO055" H 4950 3450 50  0000 C CNN
 F 2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" H 4850 2150 50  0001 L CNN
