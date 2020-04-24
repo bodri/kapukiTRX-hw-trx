@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:kapukiTRX-hw-trx-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -41,7 +40,7 @@ L LP38693:LP38693 U6
 U 1 1 5C7BA578
 P 4050 1925
 F 0 "U6" H 4050 2290 50  0000 C CNN
-F 1 "LP38693SD-3.3" H 4050 2199 50  0000 C CNN
+F 1 "LP38693-3.3" H 4050 2199 50  0000 C CNN
 F 2 "miscellaneous:WSON-6_3x3mm_Pitch0.95mm" H 4050 1925 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/snvs321o/snvs321o.pdf" H 4050 1925 50  0001 C CNN
 	1    4050 1925
