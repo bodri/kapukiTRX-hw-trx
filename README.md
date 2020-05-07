@@ -1,6 +1,8 @@
 # Redundant RC transmitter module & 8 channel receiver
 RC Receiver and transmitter module using redundant SX1280 RF modules.
 
+The [firmware](https://github.com/bodri/kapukiTRX-fw-trx) is still under development, but you can take a look already...
+
 [Please take a look at my previous project here](https://github.com/bodri/RcReceiver)
 
 # Design
